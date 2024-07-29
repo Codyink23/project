@@ -1,0 +1,497 @@
+.first {
+    border: 1px solid blue;
+    padding: 2px;
+    background-color: blue;
+}
+
+.why {
+    background-color: #f2fbff;
+}
+
+.fa-solid {
+    color: brown;
+    margin-top: 17px;
+    margin-right: 10px;
+
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+
+}
+
+.location {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.wrap {
+    display: flex;
+}
+
+.face {
+    display: flex;
+    margin-top: 15px;
+}
+
+.fa-brands {
+    margin-left: 15px;
+}
+
+.tar {
+    font-size: 13px;
+}
+
+.red {
+    border: 1px solid rgb(194, 194, 194);
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.rep {
+    background-color: #3FA2F6;
+    position: relative;
+
+    padding-top: 40px;
+
+}
+
+.war {
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+
+.light {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.oder {
+    margin-top: 50px;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.oder:hover {
+    background-color: #3FA2F6;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.ter {
+    display: flex;
+    flex-direction: column;
+    background-color: #2986e2 !important;
+    background-attachment: fixed;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.fa-shield {
+    border: 1px solid #2986e2;
+    color: white !important;
+    background-color: #2986e2;
+    border-radius: 100%;
+    padding: 20px;
+    font-size: 20px;
+    position: relative;
+    bottom: 13px;
+}
+
+.more {
+    border: 3px solid blue;
+    padding: 10px 5px;
+
+    text-align: center !important;
+    margin-left: center;
+}
+
+.more:hover {
+    background-color: #3FA2F6;
+}
+
+.sed {
+    border-left: 6px solid #FF5F00;
+    padding-left: 15px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.space {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.ed {
+    color: white;
+}
+
+.dom {
+    border: 3px solid black;
+    margin-bottom: 30px;
+}
+
+.grad {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.fa-pen-to-square {
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+}
+
+.fa-clock {
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.rad {
+    border-bottom: 7px solid orangered;
+    position: relative;
+    bottom: 3px;
+}
+
+.bor {
+    border: 1px solid rgb(226, 225, 225);
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+
+.bor:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.fa-stethoscope {
+    font-size: 45px;
+    color: rgb(135, 195, 235);
+    margin-bottom: 25px;
+}
+
+.fa-scale-balanced {
+    font-size: 45px;
+    color: rgb(135, 195, 235);
+    margin-bottom: 25px;
+}
+
+.fa-clipboard {
+    font-size: 45px;
+    color: rgb(135, 195, 235);
+    margin-bottom: 25px;
+
+}
+
+.sec {
+    font-size: 20px;
+    background-color: rgb(30, 104, 153);
+    color: white;
+    margin-bottom: 25px;
+    border: 1px solid rgb(135, 195, 235);
+    padding: 20px;
+    border-radius: 100%;
+
+}
+
+.fa-droplet {
+    font-size: 20px;
+    background-color: rgb(30, 104, 153);
+    color: white;
+    margin-bottom: 25px;
+    border: 1px solid rgb(135, 195, 235);
+    padding: 20px;
+    border-radius: 100%;
+
+}
+
+
+
+.fa-heart-pulse {
+    font-size: 20px;
+    background-color: rgb(30, 104, 153);
+    color: white;
+    margin-bottom: 25px;
+    border: 1px solid rgb(135, 195, 235);
+    padding: 20px;
+    border-radius: 100%;
+
+}
+
+.fa-hospital {
+    font-size: 25px;
+    background-color: rgb(30, 104, 153);
+    color: white;
+
+    border: 1px solid rgb(135, 195, 235);
+    padding: 20px;
+    border-radius: 100%;
+
+
+}
+
+.stress {
+    background-image: url(https://health.templines.org/wp-content/uploads/2018/07/background2.png?id=14896);
+    /* background-repeat: no-repeat; */
+
+}
+
+.fa-capsules {
+    font-size: 20px;
+    background-color: rgb(30, 104, 153);
+    color: white;
+    margin-bottom: 25px;
+    border: 1px solid rgb(135, 195, 235);
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.fa-droplet:hover {
+    background-color: orangered;
+}
+
+.fa-heart-pulse:hover {
+    background-color: orangered;
+}
+
+.sec:hover {
+    background-color: orangered;
+}
+
+.fa-hospital:hover {
+    background-color: orangered;
+}
+
+.fa-capsules:hover {
+    background-color: orangered;
+
+}
+
+
+.cont {
+    background-color: #FF5F00;
+}
+
+.vel {
+    background-color: orangered;
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.vel:hover {
+    background-color: skyblue;
+    color: white;
+
+}
+
+.fa-calendar {
+    color: #FF5F00;
+    margin-right: 10px;
+}
+
+.fa-user {
+    color: #FF5F00;
+    margin-right: 10px;
+}
+
+.wave {
+    border: 1px solid white;
+    padding: 10px 45px;
+    border-radius: 23px;
+    color: white;
+    margin-top: 20px;
+}
+
+.retro {
+    border-top: 5px solid #3FA2F6;
+}
+
+.retro:hover {
+    background-color: rgba(0, 0, 255, 0.863);
+}
+
+.deep {
+    background-color: black;
+}
+
+.up {
+    padding-bottom: 70px;
+}
+
+.wave:hover {
+    background-color: #FF5F00;
+    color: white;
+}
+
+
+.back {
+    background-image: url(https://health.templines.org/wp-content/uploads/2018/07/der1.png);
+}
+
+.sect {
+    margin-top: 70px;
+    background-color: #FF5F00;
+    padding-top: 50px;
+}
+
+.foot {
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+.app {
+    color: white;
+    border-radius: 23px;
+    background-color: #3FA2F6;
+    padding: 12px 30px;
+
+}
+
+.end {
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+.bbl {
+    border: 1px solid white;
+    padding: 20px 40px;
+}
+
+.about {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(https://health.templines.org/wp-content/themes/health/images/page-img.jpg);
+    background-attachment: fixed;
+
+    border-bottom: 5px solid #3FA2F6;
+}
+
+
+.drizzy {
+    background-color: rgba(0, 0, 0, 0.342);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 17px;
+
+}
+
+.fa-tooth {
+    color: #3FA2F6;
+    font-size: 25px;
+}
+
+.bay {
+    display: flex;
+
+}
+
+
+@media all and (max-width: 768px) {
+    .star {
+        width: 400px;
+    }
+
+    .ran {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .far {
+        width: 90%;
+    }
+
+    .fault {
+        display: flex;
+        font-size: 15px;
+    }
+
+    .def {
+        display: flex;
+        flex-direction: row;
+
+    }
+}
+
+
+
+.dam {
+    border: 1px solid gray;
+    padding: 5px 40px;
+
+}
+
+.fa-flag {
+    color: #3FA2F6;
+    font-size: 30px;
+    border: 1px solid #3FA2F6;
+    border-radius: 100%;
+    padding: 30px;
+    width: 30%;
+    position: relative;
+    bottom: 60px;
+    background-color: blue;
+
+}
+
+.ride {
+    position: relative;
+    bottom: 60px;
+}
+
+.bas {
+    margin-left: 10px;
+}
+
+
+.fa-phone {
+    color: #3FA2F6;
+    font-size: 30px;
+    border: 1px solid #3FA2F6;
+    border-radius: 100%;
+    padding: 30px;
+    width: 30%;
+    position: relative;
+    bottom: 60px;
+    background-color: blue;
+}
+
+.fa-envelope {
+    color: #3FA2F6;
+    font-size: 30px;
+    border: 1px solid #3FA2F6;
+    border-radius: 100%;
+    padding: 30px;
+    width: 30%;
+    position: relative;
+    bottom: 60px;
+
+    background-color: blue;
+}

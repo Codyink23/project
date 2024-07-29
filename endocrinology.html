@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Overlay Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <style>
+        /* Reset margin and padding for the body */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container for the image and overlay */
+        .image-container {
+            position: relative;
+            width: 100%;
+            /* Adjust as needed */
+            max-width: 600px;
+            /* Adjust as needed */
+        }
+
+        /* Image styling */
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Overlay styling */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            /* Semi-transparent background */
+            color: white;
+            /* Text color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            /* Hidden by default */
+            transition: opacity 0.3s ease;
+            /* Smooth transition */
+        }
+
+        /* Text styling */
+        .overlay .text {
+            font-size: 1.5em;
+            /* Adjust as needed */
+            text-align: center;
+        }
+
+        /* Show overlay on hover */
+        .image-container:hover .overlay {
+            opacity: 1;
+        }
+    </style>
+    <div class="image-container">
+        <img src="images/doctors-1.jpg" alt="Sample Image">
+        <div class="overlay">
+            <div class="text">Your Overlay Text</div>
+        </div>
+    </div>
+</body>
+
+</html>
