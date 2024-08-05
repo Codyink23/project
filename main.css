@@ -412,6 +412,67 @@ a {
 
 }
 
+.wen {
+    border: 1px solid #3FA2F6;
+    background-color: #3FA2F6;
+    padding: 20px 30px;
+    width: 57%;
+    position: relative;
+    bottom: 130px;
+}
+
+.cen {
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    background-color: rgba(0, 0, 0, 0.205);
+    padding: 10px 30px;
+    width: 50%;
+    position: relative;
+    bottom: 135px;
+}
+
+.wal {
+    padding-bottom: 30px;
+}
+
+.fed {
+    color: white;
+    background-color: #FF5F00;
+    padding: 10px 30px;
+    border-radius: 20px;
+
+}
+
+.hen {
+    background-color: #FF5F00;
+    border-radius: 20px;
+    padding: 10px 30px;
+    position: relative;
+    bottom: 120px;
+    right: 380px;
+}
+
+.hen:hover {
+    background-color: #FF5F00;
+}
+
+.cent {
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    background-color: rgba(0, 0, 0, 0.205);
+    padding: 10px 30px;
+    width: 35%;
+    position: relative;
+    bottom: 135px;
+}
+
+
+.ki {
+    border: 1px solid rgba(0, 0, 0, 0.596);
+    background-color: rgba(0, 0, 0, 0.74);
+    padding: 20px 30px;
+    width: 51%;
+    position: relative;
+    bottom: 135px;
+}
 
 @media all and (max-width: 768px) {
     .star {
@@ -436,6 +497,11 @@ a {
     .def {
         display: flex;
         flex-direction: row;
+
+    }
+
+    .ett {
+        font-size: 6px;
 
     }
 }
