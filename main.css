@@ -153,6 +153,12 @@ a {
     color: white;
 }
 
+.xer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .dom {
     border: 3px solid black;
     margin-bottom: 30px;
@@ -479,10 +485,37 @@ a {
         width: 400px;
     }
 
+    .cse {
+        padding: 4px 15px;
+        font-size: 5px !important;
+        margin-left: 20px;
+    }
+
+    .navbar .nav-link {
+        color: black;
+    }
+
+    .xew {
+        color: black;
+    }
+
+    .vew {
+        width: 250px;
+    }
+
+
+    .fault {
+        font-size: 10px !important;
+    }
+
     .ran {
         display: flex;
         flex-direction: column;
         width: 50%;
+    }
+
+    .bef {
+        font-size: 10px !important;
     }
 
     .far {
@@ -493,6 +526,13 @@ a {
         display: flex;
         font-size: 15px;
     }
+
+    .xer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
 
     .def {
         display: flex;
